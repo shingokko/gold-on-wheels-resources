@@ -3,6 +3,7 @@
 //  TileGame
 //
 //  Created by Sam Christian Lee on 9/13/12.
+//  Modified by Shingo Tamura 9/21/2012.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
