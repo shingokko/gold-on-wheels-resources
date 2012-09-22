@@ -2,7 +2,7 @@
 //  Zombie.h
 //  TileGame
 //
-//  Created by Sam Christian Lee on 9/13/12.
+//  Created by Sam Christian Lee on 9/22/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,9 +10,10 @@
 #import "GameCharacter.h"
 #import "ShortestPathStep.h"
 #import "Constants.h"
+#import "CCHero.h"
 
 @interface Zombie : GameCharacter {
-    GameCharacter *hero;
+    CCHero *hero;
 	BOOL isHeroWithinBoundingBox;
     BOOL isHeroWithinSight;
 	
@@ -25,7 +26,7 @@
     CCAnimation *_facingRightAnimation;
 	CCAnimation *_curAnimation;
     CCAnimate *_curAnimate;
-
+	
 @private
 	NSMutableArray *spOpenSteps;
 	NSMutableArray *spClosedSteps;

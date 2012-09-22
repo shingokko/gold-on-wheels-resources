@@ -1,10 +1,18 @@
-//
-//  CommonProtocol.h
-//  TileGame
-//
-//  Created by Sam Christian Lee on 9/13/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
-//
+/*
+ *  CommonProtocol.h
+ *  TileGame
+ *
+ *  Created by Sam Christian Lee on 9/22/12.
+ *  Copyright 2012 GameCurry. All rights reserved.
+ *
+ */
+
+typedef enum {
+    kFacingDown,
+    kFacingUp,
+    kFacingLeft,
+    kFacingRight,
+} FacingDirection;
 
 typedef enum {
     kStateSpawning,

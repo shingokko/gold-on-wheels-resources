@@ -1,13 +1,14 @@
-//
-//  Constants.h
-//  TileGame
-//
-//  Created by Sam Christian Lee on 9/13/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
-//
+/*
+ *  Constants.h
+ *  TileGame
+ *
+ *  Created by Sam Christian Lee on 9/22/12.
+ *  Copyright 2012 GameCurry. All rights reserved.
+ *
+ */
 
 #define kHeroSpriteZValue 100
-#define kHeroSpriteTagValue 0
+#define kHeroSpriteTagValue 1001
 
 // Debug Enemy States with Labels
 // 0 for OFF, 1 for ON

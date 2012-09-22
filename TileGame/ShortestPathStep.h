@@ -2,7 +2,7 @@
 //  ShortestPathStep.h
 //  TileGame
 //
-//  Created by Sam Christian Lee on 9/15/12.
+//  Created by Sam Christian Lee on 9/22/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 

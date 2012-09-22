@@ -7,7 +7,7 @@
 //
 
 #import "TitleScreenScene.h"
-#import "HelloWorldLayer.h"
+#import "GamePlayRenderingLayer.h"
 #import "SimpleAudioEngine.h"
 
 /*@implementation TitleScreenScene
@@ -39,7 +39,7 @@
 - (void)startButtonTapped:(id)sender
 {
     [[SimpleAudioEngine sharedEngine] playEffect:@"selection.caf"];
-    [[CCDirector sharedDirector] replaceScene:[HelloWorldLayer scene]];
+    [[CCDirector sharedDirector] replaceScene:[GamePlayRenderingLayer scene]];
 }
 
 +(CCScene *) scene

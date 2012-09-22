@@ -2,12 +2,12 @@
 //  Zombie.m
 //  TileGame
 //
-//  Created by Sam Christian Lee on 9/13/12.
+//  Created by Sam Christian Lee on 9/22/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "Zombie.h"
-#import "HelloWorldLayer.h"
+#import "GamePlayRenderingLayer.h"
 
 @interface Zombie ()
 
@@ -67,7 +67,7 @@
     CCAnimation *animation = [CCAnimation animation];
     for(int i = 1; i <= 2; ++i) {
         [animation addFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:
-                             [NSString stringWithFormat:@"dog_%@_%d.png", animType, i]]];
+                             [NSString stringWithFormat:@"%@-%d.png", animType, i]]];
     }
     animation.delay = 0.2;
     return animation;
@@ -140,7 +140,7 @@
 	}
 	
 	//Get reference to layer's tile properties (double because layer is spriteBatchNode's parent)
-	HelloWorldLayer *layer = (HelloWorldLayer *)[[self parent] parent];
+	GamePlayRenderingLayer *layer = (GamePlayRenderingLayer *)[[self parent] parent];
 	
 	CGPoint currentPosition = [layer tileCoordForPosition:self.position];
 	
@@ -186,15 +186,15 @@
 	[self runAction:currentStepAction];
 }
 
-#pragma mark Deft Zombie?
+#pragma mark Zombie Character
 
 -(CGRect)eyesightBoundingBox {
     CGRect zombieSightBoundingBox;
     CGRect zombieBoundingBox = [self adjustedBoundingBox];
 	zombieSightBoundingBox = CGRectMake(zombieBoundingBox.origin.x - zombieBoundingBox.size.width*5.0f, 
-                                           zombieBoundingBox.origin.y - zombieBoundingBox.size.height*5.0f,
-                                           zombieBoundingBox.size.width*10.0f, 
-                                           zombieBoundingBox.size.height*10.0f);
+										zombieBoundingBox.origin.y - zombieBoundingBox.size.height*5.0f,
+										zombieBoundingBox.size.width*10.0f, 
+										zombieBoundingBox.size.height*10.0f);
 	return zombieSightBoundingBox;
 }
 
@@ -213,10 +213,10 @@
 	self.shortestPath = nil;
 	
 	//Get reference to layer's tile properties (double because layer is spriteBatchNode's parent)
-	HelloWorldLayer *layer = (HelloWorldLayer *)[[self parent] parent];
+	GamePlayRenderingLayer *layer = (GamePlayRenderingLayer *)[[self parent] parent];
 	CGPoint fromTileCoor = [layer tileCoordForPosition:self.position];
     CGPoint toTileCoord = [layer tileCoordForPosition:target];
-
+	
 	//Check if zombie already reached target
 	if (CGPointEqualToPoint(fromTileCoor, toTileCoord)) {
 		return;
@@ -333,47 +333,13 @@
     }
 }
 
--(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray*)listOfGameObjects {
-
-	
+-(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray*)listOfGameObjects {	
     if ((characterState != kStateDead) && (characterHealth <= 0)) {
 		[self changeState:kStateDead];
         return;
     }
     
-    hero = (GameCharacter*)[[self parent] getChildByTag:kHeroSpriteTagValue];
-    CGRect heroBoundingBox = [hero adjustedBoundingBox];
-	CGRect zombieBoundingBox = [self adjustedBoundingBox];
-	CGRect zombieSightBoundingBox = [self eyesightBoundingBox];
-    
-	isHeroWithinBoundingBox = CGRectIntersectsRect(heroBoundingBox, zombieBoundingBox);
-    isHeroWithinSight = CGRectIntersectsRect(heroBoundingBox, zombieSightBoundingBox)? YES : NO;
-	
-	//[self stopAllActions];
-	
-    //if ([self numberOfRunningActions] == 0) {
-        if (characterState == kStateDead) {
-            [self setVisible:NO];
-            [self removeFromParentAndCleanup:YES];
-        } else if (isHeroWithinSight) {
-			CCLOG(@"hero coordinates: (%f, %f)", hero.position.x, hero.position.y);
-			CCLOG(@"zombie coordinates: (%f, %f)", self.position.x, self.position.y);
-            [self changeState:kStateAttacking];
-        }  else {
-            [self changeState:kStateWalking];
-        }
-    //} 
-	 
-}
-
--(void)scheduledUpdateMethod
-{
-	if ((characterState != kStateDead) && (characterHealth <= 0)) {
-		[self changeState:kStateDead];
-        return;
-    }
-    
-    hero = (GameCharacter*)[[self parent] getChildByTag:kHeroSpriteTagValue];
+    hero = (CCHero *)[[self parent] getChildByTag:kHeroSpriteTagValue];
     CGRect heroBoundingBox = [hero adjustedBoundingBox];
 	CGRect zombieBoundingBox = [self adjustedBoundingBox];
 	CGRect zombieSightBoundingBox = [self eyesightBoundingBox];
@@ -388,8 +354,8 @@
 		[self setVisible:NO];
 		[self removeFromParentAndCleanup:YES];
 	} else if (isHeroWithinSight) {
-		//CCLOG(@"hero coordinates: (%f, %f)", hero.position.x, hero.position.y);
-		//CCLOG(@"zombie coordinates: (%f, %f)", self.position.x, self.position.y);
+		CCLOG(@"hero coordinates: (%f, %f)", hero.position.x, hero.position.y);
+		CCLOG(@"zombie coordinates: (%f, %f)", self.position.x, self.position.y);
 		[self changeState:kStateAttacking];
 	}  else {
 		[self changeState:kStateWalking];
@@ -406,13 +372,10 @@
         isHeroWithinSight = NO;
 		gameObjectType = kEnemyTypeZombie;
 		
-		_facingForwardAnimation = [[self createZombifiedAnimation:@"forward"] retain];
+		_facingForwardAnimation = [[self createZombifiedAnimation:@"front"] retain];
         _facingBackAnimation = [[self createZombifiedAnimation:@"back"] retain];
-        _facingLeftAnimation = [[self createZombifiedAnimation:@"left"] retain];
-        _facingRightAnimation = [[self createZombifiedAnimation:@"right"] retain];
-		
-		//[self schedule:@selector(scheduledUpdateMethod) interval:1.0f];
-		
+        _facingLeftAnimation = [[self createZombifiedAnimation:@"side"] retain];
+        _facingRightAnimation = [[self createZombifiedAnimation:@"side"] retain];
     }
     return self;
 }

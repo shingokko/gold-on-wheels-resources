@@ -2,8 +2,8 @@
 //  GameObject.h
 //  TileGame
 //
-//  Created by Sam Christian Lee on 9/13/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//  Created by Sam Christian Lee on 9/22/12.
+//  Copyright 2012 GameCurry. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -22,5 +22,6 @@
 -(void)changeState:(CharacterStates)newState;
 -(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray*)listOfGameObjects;
 -(CGRect)adjustedBoundingBox;
+
 
 @end
