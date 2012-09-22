@@ -22,8 +22,7 @@
 	
 	CCAnimation *_facingForwardAnimation;
     CCAnimation *_facingBackAnimation;
-    CCAnimation *_facingLeftAnimation;
-    CCAnimation *_facingRightAnimation;
+    CCAnimation *_facingSideAnimation;
 	CCAnimation *_curAnimation;
     CCAnimate *_curAnimate;
 	

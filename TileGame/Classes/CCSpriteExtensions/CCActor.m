@@ -15,7 +15,6 @@
 
 -(void)changeState:(CharacterStates)newState {
     [self stopAllActions];
-    CGPoint newPosition;
     [self setCharacterState:newState];
     
     switch (newState) {
@@ -36,13 +35,13 @@
 }
 
 -(void)updateStateWithDeltaTime:(ccTime)deltaTime andGameObject:(GameObject *)gameObject {
-    if (self.characterState == kStateDead) 
+    if (self.characterState == kStateDead) {
         return; // Nothing to do if Actor is dead
+    }
 }
 
 -(id)init {
-    if( (self = [super init]) )
-    {
+    if( (self = [super init]) ) {
         self.speed = 0.0f;
         self.light = 0.0f;
         self.position = CGPointZero;

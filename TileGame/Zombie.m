@@ -159,13 +159,15 @@
 	// Animate zombie
 	CGPoint futurePosition = s.position;
 	CGPoint diff = ccpSub(futurePosition, currentPosition);
+    
+    self.flipX = NO;
+    
 	if (abs(diff.x) > abs(diff.y)) {
+        [self runAnimation:_facingSideAnimation];
+        
 		if (diff.x > 0) {
-			[self runAnimation:_facingRightAnimation];
+            self.flipX = YES;
 		}
-		else {
-			[self runAnimation:_facingLeftAnimation];
-		}    
 	}
 	else {
 		if (diff.y > 0) {
@@ -357,15 +359,15 @@
 	if (characterState == kStateDead) {
 		[self setVisible:NO];
 		[self removeFromParentAndCleanup:YES];
-	} else if (isHeroWithinSight) {
+	}
+    else if (isHeroWithinSight) {
 		CCLOG(@"hero coordinates: (%f, %f)", hero.position.x, hero.position.y);
 		CCLOG(@"zombie coordinates: (%f, %f)", self.position.x, self.position.y);
 		[self changeState:kStateAttacking];
-	}  else {
+	}
+    else {
 		[self changeState:kStateWalking];
 	}
-    //} 
-	
 }
 
 -(id) init
@@ -378,8 +380,7 @@
 		
 		_facingForwardAnimation = [[self createZombifiedAnimation:@"front"] retain];
         _facingBackAnimation = [[self createZombifiedAnimation:@"back"] retain];
-        _facingLeftAnimation = [[self createZombifiedAnimation:@"side"] retain];
-        _facingRightAnimation = [[self createZombifiedAnimation:@"side"] retain];
+        _facingSideAnimation = [[self createZombifiedAnimation:@"side"] retain];
     }
     return self;
 }
