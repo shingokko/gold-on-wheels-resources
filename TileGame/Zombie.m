@@ -64,12 +64,15 @@
 
 - (CCAnimation *)createZombifiedAnimation:(NSString *)animType
 {
-    CCAnimation *animation = [CCAnimation animation];
-    for(int i = 1; i <= 2; ++i) {
-        [animation addFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:
-                             [NSString stringWithFormat:@"%@-%d.png", animType, i]]];
-    }
-    animation.delay = 0.2;
+    NSMutableArray *animFrames = [NSMutableArray array];
+    [animFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"zombie-%@-1.png", animType]]];
+    [animFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"zombie-%@-2.png", animType]]];
+    [animFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"zombie-%@-1.png", animType]]];
+    [animFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"zombie-%@-3.png", animType]]];
+    
+    // set up walking animations
+    CCAnimation *animation = [CCAnimation animationWithFrames:animFrames delay:0.3f];
+    
     return animation;
 }
 
@@ -333,14 +336,15 @@
     }
 }
 
--(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray*)listOfGameObjects {	
+-(void)updateStateWithDeltaTime:(ccTime)deltaTime andGameObject:(GameObject *)gameObject {
     if ((characterState != kStateDead) && (characterHealth <= 0)) {
 		[self changeState:kStateDead];
         return;
     }
     
-    hero = (CCHero *)[[self parent] getChildByTag:kHeroSpriteTagValue];
-    CGRect heroBoundingBox = [hero adjustedBoundingBox];
+    hero = (CCHero*)gameObject;
+    
+    CGRect heroBoundingBox = [gameObject adjustedBoundingBox];
 	CGRect zombieBoundingBox = [self adjustedBoundingBox];
 	CGRect zombieSightBoundingBox = [self eyesightBoundingBox];
     

@@ -42,6 +42,7 @@
     NSMutableArray *_powerups;
 	
 	CCSpriteBatchNode *sceneSpriteBatchNode;
+	CCSpriteBatchNode *zombieSpriteBatchNode;
 }
 
 @property (nonatomic, retain) CCTMXTiledMap *tileMap;

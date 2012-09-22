@@ -35,7 +35,7 @@
     }
 }
 
--(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray*)listOfGameObjects {
+-(void)updateStateWithDeltaTime:(ccTime)deltaTime andGameObject:(GameObject *)gameObject {
     if (self.characterState == kStateDead) 
         return; // Nothing to do if Actor is dead
 }

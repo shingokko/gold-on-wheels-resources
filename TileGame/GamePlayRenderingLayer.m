@@ -481,10 +481,10 @@ int maxSight = 400;
     
     if (kEnemyTypeZombie == objectType) {
 		CCLOG(@"Creating Zombie");
-		Zombie *zombie = [[Zombie alloc] initWithSpriteFrameName:@"front-1.png"];
+		Zombie *zombie = [[Zombie alloc] initWithSpriteFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"zombie-front-1.png"]];
 		[zombie setCharacterHealth:initialHealth];
 		[zombie setPosition:spawnLocation];
-		[sceneSpriteBatchNode addChild:zombie z:ZValue];
+		[zombieSpriteBatchNode addChild:zombie z:ZValue];
 		[zombie setDelegate:self];
         [zombie release];
     }
@@ -534,6 +534,22 @@ int maxSight = 400;
 	return scene;
 }
 
+-(void) loadMinerSpritesheet
+{
+    [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"miner.plist"];
+    sceneSpriteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"miner.png"];
+    [self addChild:sceneSpriteBatchNode z:0];
+
+}
+
+-(void) loadZombieSpritesheet
+{
+    [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"zombie-32.plist"];
+    zombieSpriteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"zombie-32.png"];
+    [self addChild:zombieSpriteBatchNode z:0];
+
+}
+
 // on "init" you need to initialize your instance
 -(id) init
 {
@@ -561,33 +577,30 @@ int maxSight = 400;
         int x = [[spawnPoint valueForKey:@"x"] intValue];
         int y = [[spawnPoint valueForKey:@"y"] intValue];
         
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"miner.plist"];
-        sceneSpriteBatchNode = [CCSpriteBatchNode batchNodeWithFile:@"miner.png"];
-        [self addChild:sceneSpriteBatchNode z:0];
+        [self loadMinerSpritesheet];
+        [self loadZombieSpritesheet];
         
-		self.player = [[CCHero alloc] 
-					  initWithSpriteFrame:
-					  [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"front-1.png"]];
+		self.player = [[CCHero alloc] initWithSpriteFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-front-1.png"]];
 		CGPoint initialPosition = [self computeTileFittingPosition:ccp(x, y)];
         _player.position = ccp(initialPosition.x, initialPosition.y);
 		
 		NSMutableArray *frontAnimFrames = [NSMutableArray array];
-        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"front-1.png"]];
-        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"front-2.png"]];
-        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"front-1.png"]];
-        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"front-3.png"]];
+        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-front-1.png"]];
+        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-front-2.png"]];
+        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-front-1.png"]];
+        [frontAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-front-3.png"]];
         
         NSMutableArray *backAnimFrames = [NSMutableArray array];
-        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"back-1.png"]];
-        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"back-2.png"]];
-        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"back-1.png"]];
-        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"back-3.png"]];
+        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-back-1.png"]];
+        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-back-2.png"]];
+        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-back-1.png"]];
+        [backAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-back-3.png"]];
         
         NSMutableArray *sideAnimFrames = [NSMutableArray array];
-        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"side-1.png"]];
-        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"side-2.png"]];
-        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"side-1.png"]];
-        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"side-3.png"]];
+        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-side-1.png"]];
+        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-side-2.png"]];
+        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-side-1.png"]];
+        [sideAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"miner-side-3.png"]];
 		
 		// set up walking animations
         _player.frontAnim = [CCAnimation animationWithFrames:frontAnimFrames delay:0.3f];
@@ -666,9 +679,11 @@ int maxSight = 400;
 
 -(void)update:(ccTime)deltaTime
 {
-	CCArray *listOfGameObjects =  [sceneSpriteBatchNode children];
-    for (GameCharacter *tempChar in listOfGameObjects) {
-        [tempChar updateStateWithDeltaTime:deltaTime andListOfGameObjects:listOfGameObjects];                         // 3
+    [_player updateStateWithDeltaTime:deltaTime andGameObject:nil];
+    CCArray* zombies = [zombieSpriteBatchNode children];
+    
+    for (GameCharacter *zombie in zombies) {
+        [zombie updateStateWithDeltaTime:deltaTime andGameObject:_player];
     }
 }
 

@@ -21,7 +21,7 @@
     //CCLOG(@"GameObject->changeState method should be overriden");
 }
 
--(void)updateStateWithDeltaTime:(ccTime)deltaTime andListOfGameObjects:(CCArray*)listOfGameObjects {
+-(void)updateStateWithDeltaTime:(ccTime)deltaTime andGameObject:(GameObject*)gameObject {
     //CCLOG(@"updateStateWithDeltaTime method should be overriden");
 }
 
