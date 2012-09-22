@@ -3,7 +3,7 @@
 //  TileGame
 //
 //  Created by Shingo Tamura on 5/07/12.
-//  Copyright __MyCompanyName__ 2012. All rights reserved.
+//  Copyright Test 2012. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
