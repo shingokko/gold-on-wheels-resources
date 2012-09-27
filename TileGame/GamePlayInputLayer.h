@@ -17,7 +17,6 @@
     GamePlayRenderingLayer *_gameLayer;
     
 	SneakyJoystick *leftJoystick;
-	SneakyJoystick *rightJoystick;
     
     ccTime _tmpMovingDelta;
     ccTime _tmpAttackingDelta;

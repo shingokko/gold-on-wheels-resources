@@ -633,10 +633,10 @@ int maxSight = 400;
                 
                 switch (type) {
                     case 1:
-                        powerup = [[Speedup alloc] initWithFile:@"boot.png"];
+                        powerup = [[Speedup alloc] initWithFile:@"boot-32.png"];
                         break;
                     case 2:
-                        powerup = [[Lightup alloc] initWithFile:@"lamp.png"];
+                        powerup = [[Lightup alloc] initWithFile:@"lamp-32.png"];
                         break;
                     default:
                         break;
@@ -666,6 +666,9 @@ int maxSight = 400;
         [sceneSpriteBatchNode addChild:_player z:kHeroSpriteZValue tag:kHeroSpriteTagValue];
         self.position = [self getViewpointPosition:_player.position];
         
+        _tmpPathFindingDelta = 0.0f;
+        _pathFindingThreshold = 1.0f;
+        
 		//Observer notifications
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(speedupUsedOnce:) name:@"usedOnce" object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(speedupUsedUp:) name:@"usedUp" object:nil];
@@ -677,13 +680,22 @@ int maxSight = 400;
 	return self;
 }
 
--(void)update:(ccTime)deltaTime
+-(void)update:(ccTime)delta
 {
-    [_player updateStateWithDeltaTime:deltaTime andGameObject:nil];
-    CCArray* zombies = [zombieSpriteBatchNode children];
+    [_player updateStateWithDeltaTime:delta andGameObject:nil];
     
-    for (GameCharacter *zombie in zombies) {
-        [zombie updateStateWithDeltaTime:deltaTime andGameObject:_player];
+    _tmpPathFindingDelta += delta;
+    
+    if (_tmpPathFindingDelta >= _pathFindingThreshold) {
+        _tmpPathFindingDelta = 0.0f;
+        
+        CCLOG(@"Updating path finding...");
+        
+        CCArray* zombies = [zombieSpriteBatchNode children];
+        
+        for (GameCharacter *zombie in zombies) {
+            [zombie updateStateWithDeltaTime:delta andGameObject:_player];
+        }
     }
 }
 

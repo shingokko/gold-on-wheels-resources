@@ -94,8 +94,6 @@
 -(void)update:(ccTime)deltaTime {
     // need to add [glView setMultipleTouchEnabled:YES]; to AppDelegate.m to enable multi-touch
     [self applyDirectionalJoystick:leftJoystick toNode:_gameLayer.player forTimeDelta:deltaTime];
-    
-    [self applyAttackingJoystick:rightJoystick toNode:_gameLayer.player forTimeDelta:deltaTime];
 }
 
 -(void) onEnter
@@ -121,23 +119,12 @@
     // initialize a joystick
     SneakyJoystickSkinnedBase *leftJoy = [[[SneakyJoystickSkinnedBase alloc] init] autorelease];
     leftJoy.position = ccp(64, 64);
-    leftJoy.backgroundSprite = [ColoredCircleSprite circleWithColor:ccc4(255, 0, 0, 128) radius:64];
-    leftJoy.thumbSprite = [ColoredCircleSprite circleWithColor:ccc4(0, 0, 255, 200) radius:32];
+    leftJoy.backgroundSprite = [CCSprite spriteWithFile:@"wheel.png"];
+    leftJoy.thumbSprite = [CCSprite spriteWithFile:@"lever.png"];
     leftJoy.joystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(0,0,128,128)];
     leftJoystick = [leftJoy.joystick retain];
     
-    [self addChild:leftJoy z:2];
-    
-    // initialize a joystick
-    SneakyJoystickSkinnedBase *rightJoy = [[[SneakyJoystickSkinnedBase alloc] init] autorelease];
-    rightJoy.position = ccp(416, 64);
-    rightJoy.backgroundSprite = [ColoredCircleSprite circleWithColor:ccc4(255, 0, 0, 128) radius:64];
-    rightJoy.thumbSprite = [ColoredCircleSprite circleWithColor:ccc4(0, 0, 255, 200) radius:32];
-    rightJoy.joystick = [[SneakyJoystick alloc] initWithRect:CGRectMake(0,0,128,128)];
-    rightJoystick = [rightJoy.joystick retain];
-    
-    [self addChild:rightJoy z:2];
-}
+    [self addChild:leftJoy z:2];}
 
 -(id) init
 {

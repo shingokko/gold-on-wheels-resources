@@ -17,7 +17,6 @@
 @class CCSpotLight;
 @class Speedup;
 
-// HelloWorldLayer
 @interface GamePlayRenderingLayer : CCLayer <GameplayLayerDelegate>
 {
     CCTMXTiledMap *_tileMap;
@@ -43,6 +42,9 @@
 	
 	CCSpriteBatchNode *sceneSpriteBatchNode;
 	CCSpriteBatchNode *zombieSpriteBatchNode;
+    
+    ccTime _tmpPathFindingDelta;
+    ccTime _pathFindingThreshold;
 }
 
 @property (nonatomic, retain) CCTMXTiledMap *tileMap;
@@ -64,10 +66,10 @@
 // returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
 -(void)moveHero:(CGPoint)touchPosition facing:(FacingDirection)direction;
--(void) throwProjectile:(CGPoint)touchLocation;
+-(void)throwProjectile:(CGPoint)touchLocation;
 
-- (CGPoint)tileCoordForPosition:(CGPoint)position;
-- (CGPoint)positionForTileCoord:(CGPoint)tileCoord;
+-(CGPoint)tileCoordForPosition:(CGPoint)position;
+-(CGPoint)positionForTileCoord:(CGPoint)tileCoord;
 -(CGPoint) computeTileFittingPosition:(CGPoint)position;
 -(void)setPlayerPosition:(CGPoint)position facing:(FacingDirection)direction;
 -(void)projectileMoveFinished:(id)sender;

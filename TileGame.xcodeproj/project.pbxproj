@@ -34,6 +34,20 @@
 		F49F461215E61650007ED9E8 /* SneakyJoystickSkinnedJoystickExample.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F460815E61650007ED9E8 /* SneakyJoystickSkinnedJoystickExample.m */; };
 		F49F852615F61248001FCBE3 /* Lightup.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F852515F61248001FCBE3 /* Lightup.m */; };
 		F49F852B15F616C6001FCBE3 /* CCActor.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F852A15F616C6001FCBE3 /* CCActor.m */; };
+		F4A099811614380400D5BDE9 /* boot-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099731614380400D5BDE9 /* boot-32.png */; };
+		F4A099821614380400D5BDE9 /* boot-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099741614380400D5BDE9 /* boot-64.png */; };
+		F4A099831614380400D5BDE9 /* cart-front-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099751614380400D5BDE9 /* cart-front-32.png */; };
+		F4A099841614380400D5BDE9 /* cart-front-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099761614380400D5BDE9 /* cart-front-64.png */; };
+		F4A099851614380400D5BDE9 /* cart-side-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099771614380400D5BDE9 /* cart-side-32.png */; };
+		F4A099861614380400D5BDE9 /* cart-side-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099781614380400D5BDE9 /* cart-side-64.png */; };
+		F4A099871614380400D5BDE9 /* cart-with-gold-front-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099791614380400D5BDE9 /* cart-with-gold-front-32.png */; };
+		F4A099881614380400D5BDE9 /* cart-with-gold-front-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0997A1614380400D5BDE9 /* cart-with-gold-front-64.png */; };
+		F4A099891614380400D5BDE9 /* cart-with-gold-side-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0997B1614380400D5BDE9 /* cart-with-gold-side-32.png */; };
+		F4A0998A1614380400D5BDE9 /* cart-with-gold-side-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0997C1614380400D5BDE9 /* cart-with-gold-side-64.png */; };
+		F4A0998B1614380400D5BDE9 /* lamp-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0997D1614380400D5BDE9 /* lamp-32.png */; };
+		F4A0998C1614380400D5BDE9 /* lamp-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0997E1614380400D5BDE9 /* lamp-64.png */; };
+		F4A0998D1614380400D5BDE9 /* lever.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A0997F1614380400D5BDE9 /* lever.png */; };
+		F4A0998E1614380400D5BDE9 /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A099801614380400D5BDE9 /* wheel.png */; };
 		F4A3EB4B15FAB83400FC3D43 /* GamePlayInputLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A3EB4A15FAB83400FC3D43 /* GamePlayInputLayer.m */; };
 		F4A54073160D603F0092F62B /* zombie-64.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4A5406F160D603F0092F62B /* zombie-64.plist */; };
 		F4A54074160D603F0092F62B /* zombie-64.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A54070160D603F0092F62B /* zombie-64.png */; };
@@ -226,6 +240,20 @@
 		F49F852515F61248001FCBE3 /* Lightup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lightup.m; path = TileGame/Resources/Lightup.m; sourceTree = "<group>"; };
 		F49F852915F616C6001FCBE3 /* CCActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCActor.h; path = Classes/CCSpriteExtensions/CCActor.h; sourceTree = "<group>"; };
 		F49F852A15F616C6001FCBE3 /* CCActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCActor.m; path = Classes/CCSpriteExtensions/CCActor.m; sourceTree = "<group>"; };
+		F4A099731614380400D5BDE9 /* boot-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boot-32.png"; path = "Resources/boot-32.png"; sourceTree = "<group>"; };
+		F4A099741614380400D5BDE9 /* boot-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boot-64.png"; path = "Resources/boot-64.png"; sourceTree = "<group>"; };
+		F4A099751614380400D5BDE9 /* cart-front-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-front-32.png"; path = "Resources/cart-front-32.png"; sourceTree = "<group>"; };
+		F4A099761614380400D5BDE9 /* cart-front-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-front-64.png"; path = "Resources/cart-front-64.png"; sourceTree = "<group>"; };
+		F4A099771614380400D5BDE9 /* cart-side-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-side-32.png"; path = "Resources/cart-side-32.png"; sourceTree = "<group>"; };
+		F4A099781614380400D5BDE9 /* cart-side-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-side-64.png"; path = "Resources/cart-side-64.png"; sourceTree = "<group>"; };
+		F4A099791614380400D5BDE9 /* cart-with-gold-front-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-with-gold-front-32.png"; path = "Resources/cart-with-gold-front-32.png"; sourceTree = "<group>"; };
+		F4A0997A1614380400D5BDE9 /* cart-with-gold-front-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-with-gold-front-64.png"; path = "Resources/cart-with-gold-front-64.png"; sourceTree = "<group>"; };
+		F4A0997B1614380400D5BDE9 /* cart-with-gold-side-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-with-gold-side-32.png"; path = "Resources/cart-with-gold-side-32.png"; sourceTree = "<group>"; };
+		F4A0997C1614380400D5BDE9 /* cart-with-gold-side-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart-with-gold-side-64.png"; path = "Resources/cart-with-gold-side-64.png"; sourceTree = "<group>"; };
+		F4A0997D1614380400D5BDE9 /* lamp-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-32.png"; path = "Resources/lamp-32.png"; sourceTree = "<group>"; };
+		F4A0997E1614380400D5BDE9 /* lamp-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lamp-64.png"; path = "Resources/lamp-64.png"; sourceTree = "<group>"; };
+		F4A0997F1614380400D5BDE9 /* lever.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lever.png; path = Resources/lever.png; sourceTree = "<group>"; };
+		F4A099801614380400D5BDE9 /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel.png; path = Resources/wheel.png; sourceTree = "<group>"; };
 		F4A3EB4A15FAB83400FC3D43 /* GamePlayInputLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayInputLayer.m; sourceTree = "<group>"; };
 		F4A3EB4C15FAB9B600FC3D43 /* GamePlayInputLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayInputLayer.h; sourceTree = "<group>"; };
 		F4A5406F160D603F0092F62B /* zombie-64.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "zombie-64.plist"; sourceTree = "<group>"; };
@@ -1044,6 +1072,20 @@
 		F4F849CC160433EE009945BC /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
+				F4A099731614380400D5BDE9 /* boot-32.png */,
+				F4A099741614380400D5BDE9 /* boot-64.png */,
+				F4A099751614380400D5BDE9 /* cart-front-32.png */,
+				F4A099761614380400D5BDE9 /* cart-front-64.png */,
+				F4A099771614380400D5BDE9 /* cart-side-32.png */,
+				F4A099781614380400D5BDE9 /* cart-side-64.png */,
+				F4A099791614380400D5BDE9 /* cart-with-gold-front-32.png */,
+				F4A0997A1614380400D5BDE9 /* cart-with-gold-front-64.png */,
+				F4A0997B1614380400D5BDE9 /* cart-with-gold-side-32.png */,
+				F4A0997C1614380400D5BDE9 /* cart-with-gold-side-64.png */,
+				F4A0997D1614380400D5BDE9 /* lamp-32.png */,
+				F4A0997E1614380400D5BDE9 /* lamp-64.png */,
+				F4A0997F1614380400D5BDE9 /* lever.png */,
+				F4A099801614380400D5BDE9 /* wheel.png */,
 				F4A5406F160D603F0092F62B /* zombie-64.plist */,
 				F4A54070160D603F0092F62B /* zombie-64.png */,
 				F4A54071160D603F0092F62B /* zombie-32.plist */,
@@ -1151,6 +1193,20 @@
 				F4A54074160D603F0092F62B /* zombie-64.png in Resources */,
 				F4A54075160D603F0092F62B /* zombie-32.plist in Resources */,
 				F4A54076160D603F0092F62B /* zombie-32.png in Resources */,
+				F4A099811614380400D5BDE9 /* boot-32.png in Resources */,
+				F4A099821614380400D5BDE9 /* boot-64.png in Resources */,
+				F4A099831614380400D5BDE9 /* cart-front-32.png in Resources */,
+				F4A099841614380400D5BDE9 /* cart-front-64.png in Resources */,
+				F4A099851614380400D5BDE9 /* cart-side-32.png in Resources */,
+				F4A099861614380400D5BDE9 /* cart-side-64.png in Resources */,
+				F4A099871614380400D5BDE9 /* cart-with-gold-front-32.png in Resources */,
+				F4A099881614380400D5BDE9 /* cart-with-gold-front-64.png in Resources */,
+				F4A099891614380400D5BDE9 /* cart-with-gold-side-32.png in Resources */,
+				F4A0998A1614380400D5BDE9 /* cart-with-gold-side-64.png in Resources */,
+				F4A0998B1614380400D5BDE9 /* lamp-32.png in Resources */,
+				F4A0998C1614380400D5BDE9 /* lamp-64.png in Resources */,
+				F4A0998D1614380400D5BDE9 /* lever.png in Resources */,
+				F4A0998E1614380400D5BDE9 /* wheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
