@@ -6114,6 +6114,50 @@
        r="130.26195"
        gradientTransform="matrix(1,0,0,0.2551825,0,931.57953)"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8684"
+       id="radialGradient4521"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.1833333,0,803.80576)"
+       cx="-2091.8635"
+       cy="984.25195"
+       fx="-2091.8635"
+       fy="984.25195"
+       r="78.740158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8702"
+       id="radialGradient4523"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.2551825,0,931.57953)"
+       cx="-2098.3805"
+       cy="1250.7487"
+       fx="-2098.3805"
+       fy="1250.7487"
+       r="130.26195" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8694"
+       id="radialGradient4525"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.3517513,0,794.52034)"
+       cx="-2098.3401"
+       cy="1205.1216"
+       fx="-2098.3401"
+       fy="1205.1216"
+       r="129.43015" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8674"
+       id="radialGradient4527"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.2651319,0,507.86297)"
+       cx="-1980.4222"
+       cy="691.09408"
+       fx="-1980.4222"
+       fy="691.09408"
+       r="414.30324" />
   </defs>
   <metadata
      id="metadata7">
@@ -12533,164 +12577,171 @@
          d="M -264.61131,1020.3603 C -258.16556,1026.8061 -234.96087,1042.2759 -227.22598,1073.2155 C -219.49108,1104.155 -215.62363,1142.8295 -209.17789,1142.8295 C -202.73214,1142.8295 -209.17789,1096.4201 -201.44299,1073.2155 C -193.70812,1050.0108 -161.47937,1016.4929 -161.47937,1016.4929 L -264.61131,1020.3603 L -264.61131,1020.3603 z"
          style="fill:url(#linearGradient6400);fill-opacity:1;stroke:none" />
     </g>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect8633"
-       width="480"
-       height="320"
-       x="-2345.1443"
-       y="1032.8871"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:0.38053098;fill:url(#radialGradient8692);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="path8682"
-       sodipodi:cx="-2091.8635"
-       sodipodi:cy="984.25195"
-       sodipodi:rx="78.740158"
-       sodipodi:ry="14.435696"
-       d="M -2013.1234,984.25195 A 78.740158,14.435696 0 1 1 -2170.6037,984.25195 A 78.740158,14.435696 0 1 1 -2013.1234,984.25195 z"
-       transform="matrix(1.2666666,0,0,1.4090909,553.89326,-99.724651)"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#999999;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2154.024,1278.691 L -2153.2715,1283.9585 C -2153.2715,1283.9585 -2142.7366,1289.226 -2095.3293,1288.4735 C -2047.9221,1287.721 -2032.1197,1283.206 -2032.1197,1283.206 L -2031.3672,1277.1861 L -2154.024,1274.176 L -2154.024,1278.691 z"
-       id="path3244"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:url(#radialGradient8708);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-       d="M -2228.5211,1230.5313 C -2228.5211,1230.5313 -2237.5511,1282.4535 -2099.8443,1283.9585 C -1962.1375,1285.4635 -1968.1575,1231.2838 -1968.1575,1231.2838 C -1968.1575,1231.2838 -2016.3172,1219.9964 -2114.8942,1217.7389 C -2213.4712,1215.4814 -2227.0161,1230.5313 -2228.5211,1230.5313 z"
-       id="path3242"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:url(#radialGradient8700);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-       d="M -2227.7686,1228.2738 C -2227.8156,1228.2738 -2227.7686,1180.1141 -2098.3393,1180.1141 C -1968.9078,1180.1141 -1968.91,1230.5313 -1968.91,1230.5313 C -1968.91,1230.5313 -1969.6625,1270.7898 -2096.8343,1271.1661 C -2224.3824,1271.5435 -2227.8156,1228.3208 -2227.7686,1228.2738 z"
-       id="path3240"
-       sodipodi:nodetypes="czczc"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#784421;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2198.045,1219.2439 C -2198.045,1219.2439 -2200.6787,1254.2349 -2095.7055,1254.6112 C -1991.1086,1254.9861 -1988.8511,1223.3826 -1988.8511,1223.3826 C -1988.8511,1223.3826 -1992.6136,1193.2879 -2097.2106,1193.659 C -2202.1838,1194.0314 -2198.4213,1219.2439 -2198.045,1219.2439 z"
-       id="path3270"
-       sodipodi:nodetypes="czczc"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2190.8963,1216.9864 C -2190.8963,1216.9864 -2186.3813,1160.5492 -2099.8443,1160.5492 C -2013.3073,1160.5492 -2002.0198,1222.2538 -2002.0198,1222.2538 C -2002.0198,1222.2538 -2016.3172,1243.3237 -2094.5768,1243.3237 C -2172.8364,1243.3237 -2190.8963,1219.2439 -2190.8963,1216.9864 z"
-       id="path3246"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#784421;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2110.6614,1160.6903 C -2110.6614,1160.6903 -2107.7455,1163.9354 -2106.6168,1166.5691 C -2105.488,1169.2029 -2109.2505,1172.2129 -2107.7455,1176.3516 C -2106.2405,1180.4903 -2101.3493,1181.2428 -2100.2205,1185.3815 C -2099.0918,1189.5203 -2103.983,1193.2828 -2102.4781,1198.5502 C -2100.9731,1203.8177 -2095.3293,1205.6989 -2095.3293,1210.5902 C -2095.3293,1215.4814 -2102.4781,1219.6201 -2102.4781,1224.1351 C -2102.4781,1228.6501 -2094.9531,1230.5313 -2095.3293,1235.0463 C -2095.7056,1239.5613 -2102.8543,1243.3237 -2102.8543,1243.3237 L -2100.9731,1253.4824 C -2100.9731,1253.4824 -2053.9421,1253.8587 -2025.7235,1245.205 C -1997.5049,1236.5513 -2000.5148,1220.7489 -2000.5148,1220.7489 C -2000.5148,1220.7489 -2007.2873,1187.2628 -2040.3971,1172.2129 C -2073.507,1157.1629 -2110.6614,1160.6903 -2110.6614,1160.6903 z"
-       id="path3248"
-       sodipodi:nodetypes="csssssssccsczc"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#00d455;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2095.975,1161.7163 C -2097.2477,1164.4455 -2096.0663,1167.6914 -2093.337,1168.9642 C -2091.7398,1169.709 -2089.9647,1169.6019 -2088.5122,1168.8471 L -2093.0022,1178.1839 L -2088.842,1180.1105 L -2085.1931,1172.285 L -2079.7026,1174.8999 L -2077.2389,1184.8997 L -2072.2446,1182.9461 L -2075.6073,1170.5633 L -2063.8575,1164.6498 L -2065.7913,1160.2144 L -2075.294,1165.1245 L -2080.945,1162.4162 L -2077.4708,1154.8197 L -2081.2454,1152.9535 L -2085.816,1162.4356 C -2086.2508,1161.0041 -2087.2655,1159.7597 -2088.727,1159.0783 C -2091.4563,1157.8055 -2094.7022,1158.9869 -2095.975,1161.7163 z"
-       id="path3256"
-       sodipodi:nodetypes="cscccccccccccccccsc"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <g
-       id="g3280"
-       transform="matrix(0.1377163,0.5139643,-0.5139643,0.1377163,-1279.1781,1709.4232)"
+       id="g4495"
+       transform="matrix(0,1,-1,0,-858.45143,3212.7296)"
        inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         y="1032.8871"
+         x="-2345.1443"
+         height="320"
+         width="480"
+         id="rect8633"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;marker:none;marker-start:none;marker-mid:none;marker-end:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
-         sodipodi:nodetypes="ccccc"
-         transform="translate(0,308.2677)"
-         id="path3258"
-         d="M -1351.2811,811.26963 L -1351.2811,837.43258 L -1320.8755,837.43258 L -1321.0138,810.56252 L -1351.2811,811.26963 z"
-         style="fill:#87cdde;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         transform="matrix(1.2666666,0,0,1.4090909,553.89326,-99.724651)"
+         d="M -2013.1234,984.25195 A 78.740158,14.435696 0 1 1 -2170.6037,984.25195 A 78.740158,14.435696 0 1 1 -2013.1234,984.25195 z"
+         sodipodi:ry="14.435696"
+         sodipodi:rx="78.740158"
+         sodipodi:cy="984.25195"
+         sodipodi:cx="-2091.8635"
+         id="path8682"
+         style="opacity:0.38053098;fill:url(#radialGradient4521);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
       <path
-         sodipodi:nodetypes="ccccc"
-         transform="translate(0,308.2677)"
-         id="path3260"
-         d="M -1351.27,811.26963 L -1336.3984,798.53057 L -1308.1699,798.28744 L -1320.8041,811.01536 L -1351.27,811.26963 z"
-         style="fill:#afdde9;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         id="path3244"
+         d="M -2154.024,1278.691 L -2153.2715,1283.9585 C -2153.2715,1283.9585 -2142.7366,1289.226 -2095.3293,1288.4735 C -2047.9221,1287.721 -2032.1197,1283.206 -2032.1197,1283.206 L -2031.3672,1277.1861 L -2154.024,1274.176 L -2154.024,1278.691 z"
+         style="fill:#999999;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
-         sodipodi:nodetypes="ccccc"
-         transform="translate(0,308.2677)"
-         id="path3262"
-         d="M -1321.1186,837.65343 L -1321.268,810.99309 L -1308.0315,798.05545 L -1308.1253,824.01982 L -1321.1186,837.65343 z"
-         style="fill:#37abc8;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         id="path3242"
+         d="M -2228.5211,1230.5313 C -2228.5211,1230.5313 -2237.5511,1282.4535 -2099.8443,1283.9585 C -1962.1375,1285.4635 -1968.1575,1231.2838 -1968.1575,1231.2838 C -1968.1575,1231.2838 -2016.3172,1219.9964 -2114.8942,1217.7389 C -2213.4712,1215.4814 -2227.0161,1230.5313 -2228.5211,1230.5313 z"
+         style="fill:url(#radialGradient4523);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         sodipodi:nodetypes="czczc"
+         id="path3240"
+         d="M -2227.7686,1228.2738 C -2227.8156,1228.2738 -2227.7686,1180.1141 -2098.3393,1180.1141 C -1968.9078,1180.1141 -1968.91,1230.5313 -1968.91,1230.5313 C -1968.91,1230.5313 -1969.6625,1270.7898 -2096.8343,1271.1661 C -2224.3824,1271.5435 -2227.8156,1228.3208 -2227.7686,1228.2738 z"
+         style="fill:url(#radialGradient4525);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         sodipodi:nodetypes="czczc"
+         id="path3270"
+         d="M -2198.045,1219.2439 C -2198.045,1219.2439 -2200.6787,1254.2349 -2095.7055,1254.6112 C -1991.1086,1254.9861 -1988.8511,1223.3826 -1988.8511,1223.3826 C -1988.8511,1223.3826 -1992.6136,1193.2879 -2097.2106,1193.659 C -2202.1838,1194.0314 -2198.4213,1219.2439 -2198.045,1219.2439 z"
+         style="fill:#784421;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         id="path3246"
+         d="M -2190.8963,1216.9864 C -2190.8963,1216.9864 -2186.3813,1160.5492 -2099.8443,1160.5492 C -2013.3073,1160.5492 -2002.0198,1222.2538 -2002.0198,1222.2538 C -2002.0198,1222.2538 -2016.3172,1243.3237 -2094.5768,1243.3237 C -2172.8364,1243.3237 -2190.8963,1219.2439 -2190.8963,1216.9864 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         sodipodi:nodetypes="csssssssccsczc"
+         id="path3248"
+         d="M -2110.6614,1160.6903 C -2110.6614,1160.6903 -2107.7455,1163.9354 -2106.6168,1166.5691 C -2105.488,1169.2029 -2109.2505,1172.2129 -2107.7455,1176.3516 C -2106.2405,1180.4903 -2101.3493,1181.2428 -2100.2205,1185.3815 C -2099.0918,1189.5203 -2103.983,1193.2828 -2102.4781,1198.5502 C -2100.9731,1203.8177 -2095.3293,1205.6989 -2095.3293,1210.5902 C -2095.3293,1215.4814 -2102.4781,1219.6201 -2102.4781,1224.1351 C -2102.4781,1228.6501 -2094.9531,1230.5313 -2095.3293,1235.0463 C -2095.7056,1239.5613 -2102.8543,1243.3237 -2102.8543,1243.3237 L -2100.9731,1253.4824 C -2100.9731,1253.4824 -2053.9421,1253.8587 -2025.7235,1245.205 C -1997.5049,1236.5513 -2000.5148,1220.7489 -2000.5148,1220.7489 C -2000.5148,1220.7489 -2007.2873,1187.2628 -2040.3971,1172.2129 C -2073.507,1157.1629 -2110.6614,1160.6903 -2110.6614,1160.6903 z"
+         style="fill:#784421;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         sodipodi:nodetypes="cscccccccccccccccsc"
+         id="path3256"
+         d="M -2095.975,1161.7163 C -2097.2477,1164.4455 -2096.0663,1167.6914 -2093.337,1168.9642 C -2091.7398,1169.709 -2089.9647,1169.6019 -2088.5122,1168.8471 L -2093.0022,1178.1839 L -2088.842,1180.1105 L -2085.1931,1172.285 L -2079.7026,1174.8999 L -2077.2389,1184.8997 L -2072.2446,1182.9461 L -2075.6073,1170.5633 L -2063.8575,1164.6498 L -2065.7913,1160.2144 L -2075.294,1165.1245 L -2080.945,1162.4162 L -2077.4708,1154.8197 L -2081.2454,1152.9535 L -2085.816,1162.4356 C -2086.2508,1161.0041 -2087.2655,1159.7597 -2088.727,1159.0783 C -2091.4563,1157.8055 -2094.7022,1158.9869 -2095.975,1161.7163 z"
+         style="fill:#00d455;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         transform="matrix(0.1377163,0.5139643,-0.5139643,0.1377163,-1279.1781,1709.4232)"
+         id="g3280">
+        <path
+           style="fill:#87cdde;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1351.2811,811.26963 L -1351.2811,837.43258 L -1320.8755,837.43258 L -1321.0138,810.56252 L -1351.2811,811.26963 z"
+           id="path3258"
+           transform="translate(0,308.2677)"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#afdde9;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1351.27,811.26963 L -1336.3984,798.53057 L -1308.1699,798.28744 L -1320.8041,811.01536 L -1351.27,811.26963 z"
+           id="path3260"
+           transform="translate(0,308.2677)"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#37abc8;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1321.1186,837.65343 L -1321.268,810.99309 L -1308.0315,798.05545 L -1308.1253,824.01982 L -1321.1186,837.65343 z"
+           id="path3262"
+           transform="translate(0,308.2677)"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         sodipodi:nodetypes="ccccccccccc"
+         id="path3264"
+         d="M -2075.111,1227.4612 L -2076.3874,1218.0764 L -2084.3875,1215.1645 L -2076.8397,1209.9844 L -2076.6099,1201.5743 L -2068.9967,1206.3271 L -2060.1769,1203.8749 L -2063.4755,1213.716 L -2058.2723,1220.4229 L -2068.2054,1220.4882 L -2075.111,1227.4612 z"
+         style="fill:#ffff00;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         transform="matrix(0.4984968,0.3490512,-0.3490512,0.4984968,-1002.4947,1156.938)"
+         id="g3275">
+        <path
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1.17378294px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1314.6889,1054.8997 C -1314.6889,1054.8997 -1304.3731,1049.4705 -1303.1491,1051.2802 C -1301.9252,1053.0899 -1307.3454,1055.5028 -1307.3454,1055.5028 C -1307.3454,1055.5028 -1303.8485,1054.4472 -1302.9744,1055.8045 C -1302.1,1057.1617 -1308.5693,1059.2731 -1308.5693,1059.2731 C -1308.5693,1059.2731 -1304.7226,1058.5191 -1303.8485,1059.7255 C -1302.9744,1060.932 -1312.0663,1062.4401 -1312.0663,1062.4401 C -1312.0663,1062.4401 -1314.6889,1061.8369 -1315.3883,1059.5747 C -1316.0877,1057.3126 -1314.8637,1055.2012 -1314.6889,1054.8997 z"
+           id="path3268" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1347.6324,759.52184 L -1347.6324,761.37777 C -1347.6324,761.37777 -1336.1488,761.49376 -1332.0889,761.37777 C -1328.0291,761.26177 -1324.6653,759.63784 -1323.3893,759.52184 C -1322.1134,759.40585 -1320.7214,759.28985 -1320.7214,759.28985 L -1320.4894,760.79779 L -1312.4858,760.33381 L -1312.6018,756.50597 C -1312.6018,756.50597 -1312.6018,754.41806 -1326.8692,755.46201 C -1341.1366,756.50597 -1347.7483,759.63784 -1347.6324,759.52184 z"
+           id="path3272"
+           transform="translate(0,308.2677)"
+           sodipodi:nodetypes="ccssccccsc" />
+        <path
+           style="fill:#ff7f2a;fill-rule:evenodd;stroke:none;stroke-width:0.90028483px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -1335.473,1028.2707 L -1313.5328,1028.2707 L -1315.9964,1053.9611 C -1315.9964,1053.9611 -1313.3898,1056.0933 -1312.8181,1061.0553 C -1312.2464,1066.0173 -1312.9611,1064.8477 -1312.9611,1064.8477 C -1312.9611,1064.8477 -1317.6643,1065.3776 -1322.0991,1065.6518 C -1326.4184,1065.9189 -1328.9943,1067.8653 -1332.7516,1068.0789 C -1336.5089,1068.2924 -1347.5843,1068.0955 -1347.5843,1068.0955 C -1347.5843,1068.0955 -1349.7969,1065.2943 -1347.1266,1062.3731 C -1344.5146,1059.5157 -1341.9946,1059.4533 -1338.9042,1057.8546 C -1336.2053,1056.4582 -1332.3812,1053.7838 -1332.3812,1053.7838 L -1335.473,1028.2707 z"
+           id="path3266"
+           sodipodi:nodetypes="cccsczzczscc" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         transform="matrix(0.4250502,0,0,0.4259292,-1250.7408,855.77406)"
+         sodipodi:linespacing="89.999998%"
+         id="text8658"
+         style="font-size:119.1364212px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#784421;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT Bold"
+         xml:space="preserve"><textPath
+           id="textPath8660"
+           xlink:href="#path3291"><tspan
+   style="fill:#784421;fill-opacity:1"
+   id="tspan8662">GAME CURRY</tspan></textPath></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
+         transform="matrix(0.4250502,0,0,0.4259292,-1251.3233,852.97159)"
+         sodipodi:linespacing="89.999998%"
+         id="text3285"
+         style="font-size:119.1364212px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient4527);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT Bold"
+         xml:space="preserve"><textPath
+           style="fill:url(#radialGradient4527);fill-opacity:1"
+           id="textPath3293"
+           xlink:href="#path3291"><tspan
+   style="fill:url(#radialGradient4527);fill-opacity:1"
+   id="tspan3287">GAME CURRY</tspan></textPath></text>
     </g>
-    <path
-       style="fill:#ffff00;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -2075.111,1227.4612 L -2076.3874,1218.0764 L -2084.3875,1215.1645 L -2076.8397,1209.9844 L -2076.6099,1201.5743 L -2068.9967,1206.3271 L -2060.1769,1203.8749 L -2063.4755,1213.716 L -2058.2723,1220.4229 L -2068.2054,1220.4882 L -2075.111,1227.4612 z"
-       id="path3264"
-       sodipodi:nodetypes="ccccccccccc"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <g
-       id="g3275"
-       transform="matrix(0.4984968,0.3490512,-0.3490512,0.4984968,-1002.4947,1156.938)"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         id="path3268"
-         d="M -1314.6889,1054.8997 C -1314.6889,1054.8997 -1304.3731,1049.4705 -1303.1491,1051.2802 C -1301.9252,1053.0899 -1307.3454,1055.5028 -1307.3454,1055.5028 C -1307.3454,1055.5028 -1303.8485,1054.4472 -1302.9744,1055.8045 C -1302.1,1057.1617 -1308.5693,1059.2731 -1308.5693,1059.2731 C -1308.5693,1059.2731 -1304.7226,1058.5191 -1303.8485,1059.7255 C -1302.9744,1060.932 -1312.0663,1062.4401 -1312.0663,1062.4401 C -1312.0663,1062.4401 -1314.6889,1061.8369 -1315.3883,1059.5747 C -1316.0877,1057.3126 -1314.8637,1055.2012 -1314.6889,1054.8997 z"
-         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1.17378294px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccssccccsc"
-         transform="translate(0,308.2677)"
-         id="path3272"
-         d="M -1347.6324,759.52184 L -1347.6324,761.37777 C -1347.6324,761.37777 -1336.1488,761.49376 -1332.0889,761.37777 C -1328.0291,761.26177 -1324.6653,759.63784 -1323.3893,759.52184 C -1322.1134,759.40585 -1320.7214,759.28985 -1320.7214,759.28985 L -1320.4894,760.79779 L -1312.4858,760.33381 L -1312.6018,756.50597 C -1312.6018,756.50597 -1312.6018,754.41806 -1326.8692,755.46201 C -1341.1366,756.50597 -1347.7483,759.63784 -1347.6324,759.52184 z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="cccsczzczscc"
-         id="path3266"
-         d="M -1335.473,1028.2707 L -1313.5328,1028.2707 L -1315.9964,1053.9611 C -1315.9964,1053.9611 -1313.3898,1056.0933 -1312.8181,1061.0553 C -1312.2464,1066.0173 -1312.9611,1064.8477 -1312.9611,1064.8477 C -1312.9611,1064.8477 -1317.6643,1065.3776 -1322.0991,1065.6518 C -1326.4184,1065.9189 -1328.9943,1067.8653 -1332.7516,1068.0789 C -1336.5089,1068.2924 -1347.5843,1068.0955 -1347.5843,1068.0955 C -1347.5843,1068.0955 -1349.7969,1065.2943 -1347.1266,1062.3731 C -1344.5146,1059.5157 -1341.9946,1059.4533 -1338.9042,1057.8546 C -1336.2053,1056.4582 -1332.3812,1053.7838 -1332.3812,1053.7838 L -1335.473,1028.2707 z"
-         style="fill:#ff7f2a;fill-rule:evenodd;stroke:none;stroke-width:0.90028483px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:119.1364212px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#784421;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT Bold"
-       id="text8658"
-       sodipodi:linespacing="89.999998%"
-       transform="matrix(0.4250502,0,0,0.4259292,-1250.7408,855.77406)"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><textPath
-         xlink:href="#path3291"
-         id="textPath8660"><tspan
-   id="tspan8662"
-   style="fill:#784421;fill-opacity:1">GAME CURRY</tspan></textPath></text>
-    <text
-       xml:space="preserve"
-       style="font-size:119.13642120000000000px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:89.99999762000000200%;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient8680);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT Bold"
-       id="text3285"
-       sodipodi:linespacing="89.999998%"
-       transform="matrix(0.4250502,0,0,0.4259292,-1251.3233,852.97159)"
-       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\logo.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><textPath
-         xlink:href="#path3291"
-         id="textPath3293"
-         style="fill-opacity:1;fill:url(#radialGradient8680)"><tspan
-   id="tspan3287"
-   style="fill:url(#radialGradient8680);fill-opacity:1">GAME CURRY</tspan></textPath></text>
     <text
        xml:space="preserve"
        style="font-size:11.17978573px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT"
