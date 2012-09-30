@@ -560,8 +560,8 @@ int maxSight = 400;
         [self preloadAudio];
         [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"adventure.mp3"];
         
-        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"TileMap.tmx"];
-        self.background = [_tileMap layerNamed:@"Background"];
+        self.tileMap = [CCTMXTiledMap tiledMapWithTMXFile:@"gold-on-wheels-32.tmx"];
+        //self.background = [_tileMap layerNamed:@"Background"];
 		self.foreground = [_tileMap layerNamed:@"Foreground"];
         self.meta = [_tileMap layerNamed:@"Meta"];
         _meta.visible = NO;
