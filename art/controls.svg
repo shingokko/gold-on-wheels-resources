@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.762"
-     inkscape:cx="-2102.8019"
-     inkscape:cy="-159.81541"
+     inkscape:zoom="1.524"
+     inkscape:cx="-1969.5552"
+     inkscape:cy="-757.35765"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -12288,6 +12288,39 @@
          style="fill:url(#linearGradient15034);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
+       id="g4512"
+       transform="translate(0,-2.5518946)"
+       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\title-background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="89.999998%"
+         id="text4502"
+         y="1922.1378"
+         x="-2078.8203"
+         style="font-size:11.17978573px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT"
+         xml:space="preserve"><tspan
+           y="1922.1378"
+           x="-2078.8203"
+           id="tspan4504"
+           sodipodi:role="line">Game Curry 2012</tspan></text>
+      <g
+         style="fill:#000000"
+         transform="translate(2.958377,3.0858313)"
+         id="g4506">
+        <path
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -2090.2188,1602 C -2092.908,1602 -2095.0939,1604.1857 -2095.0938,1606.875 C -2095.0938,1609.5642 -2092.9079,1611.7499 -2090.2188,1611.75 C -2087.5295,1611.75 -2085.3749,1609.5642 -2085.375,1606.875 C -2085.375,1604.1858 -2087.5294,1602 -2090.2188,1602 z M -2090.125,1602.9375 C -2087.9481,1602.9375 -2086.1875,1604.698 -2086.1875,1606.875 C -2086.1876,1609.0519 -2087.948,1610.8125 -2090.125,1610.8125 C -2092.3021,1610.8126 -2094.0625,1609.052 -2094.0625,1606.875 C -2094.0626,1604.6979 -2092.302,1602.9375 -2090.125,1602.9375 z"
+           transform="translate(0,308.2677)"
+           id="path4508" />
+        <path
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M -2090.1028,1912.3435 C -2091.6366,1912.3435 -2092.8841,1913.5909 -2092.884,1915.1247 C -2092.884,1916.6584 -2091.6074,1917.9058 -2090.0738,1917.9059 C -2088.9262,1917.906 -2088.2769,1917.2882 -2087.7725,1916.6405 L -2088.2925,1916.2119 C -2088.704,1916.7204 -2089.0663,1917.0847 -2090.1562,1917.0847 C -2091.1301,1917.0847 -2092.1162,1916.3953 -2092.1162,1915.1537 C -2092.1163,1913.912 -2091.1105,1913.1357 -2090.0692,1913.1357 C -2089.0569,1913.1357 -2088.5455,1913.4926 -2088.1318,1914.1759 L -2087.6095,1913.6962 C -2088.3345,1912.8228 -2089.0433,1912.3435 -2090.1028,1912.3435 z"
+           id="path4510"
+           sodipodi:nodetypes="csscczszccc" />
+      </g>
+    </g>
+    <g
        id="g5424"
        transform="translate(-51.12647,-74.671258)"
        inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\title-caption.png"
@@ -12658,5 +12691,36 @@
          style="fill-opacity:1;fill:url(#radialGradient8680)"><tspan
    id="tspan3287"
    style="fill:url(#radialGradient8680);fill-opacity:1">GAME CURRY</tspan></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.17978573px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Levenim MT;-inkscape-font-specification:Levenim MT"
+       x="-2078.7629"
+       y="1919.052"
+       id="text4484"
+       sodipodi:linespacing="89.999998%"
+       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\title-background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4486"
+         x="-2078.7629"
+         y="1919.052">Game Curry 2012</tspan></text>
+    <g
+       id="g4498"
+       transform="translate(3.0158754,0)"
+       inkscape:export-filename="C:\Users\Shingo\Documents\GitHub\gold-on-wheels-resources\art\exported\title-background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path4488"
+         transform="translate(0,308.2677)"
+         d="M -2090.2188,1602 C -2092.908,1602 -2095.0939,1604.1857 -2095.0938,1606.875 C -2095.0938,1609.5642 -2092.9079,1611.7499 -2090.2188,1611.75 C -2087.5295,1611.75 -2085.3749,1609.5642 -2085.375,1606.875 C -2085.375,1604.1858 -2087.5294,1602 -2090.2188,1602 z M -2090.125,1602.9375 C -2087.9481,1602.9375 -2086.1875,1604.698 -2086.1875,1606.875 C -2086.1876,1609.0519 -2087.948,1610.8125 -2090.125,1610.8125 C -2092.3021,1610.8126 -2094.0625,1609.052 -2094.0625,1606.875 C -2094.0626,1604.6979 -2092.302,1602.9375 -2090.125,1602.9375 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="csscczszccc"
+         id="path4493"
+         d="M -2090.1028,1912.3435 C -2091.6366,1912.3435 -2092.8841,1913.5909 -2092.884,1915.1247 C -2092.884,1916.6584 -2091.6074,1917.9058 -2090.0738,1917.9059 C -2088.9262,1917.906 -2088.2769,1917.2882 -2087.7725,1916.6405 L -2088.2925,1916.2119 C -2088.704,1916.7204 -2089.0663,1917.0847 -2090.1562,1917.0847 C -2091.1301,1917.0847 -2092.1162,1916.3953 -2092.1162,1915.1537 C -2092.1163,1913.912 -2091.1105,1913.1357 -2090.0692,1913.1357 C -2089.0569,1913.1357 -2088.5455,1913.4926 -2088.1318,1914.1759 L -2087.6095,1913.6962 C -2088.3345,1912.8228 -2089.0433,1912.3435 -2090.1028,1912.3435 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
