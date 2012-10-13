@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="rocks" tilewidth="32" tileheight="32">
+  <image source="rocks-32.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="rails" tilewidth="32" tileheight="32">
+  <image source="rails-32.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="81" name="meta" tilewidth="32" tileheight="32">
+  <image source="meta-32.png" width="192" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Powerup" value="Speedup"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Powerup" value="Lightup"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Rails" value="Curve"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Rails" value="Straight"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="87" name="gold-on-wheels" tilewidth="32" tileheight="32">
+  <image source="gold-on-wheels-32.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="151" name="cliff" tilewidth="32" tileheight="32">
+  <image source="cliff-32.png" width="384" height="384"/>
+ </tileset>
+ <layer name="base" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzNWEGSwyAM40fJLbkt/39V25l4xqtKtqGkuwdPKANBWJKh2Vpr2zP2K1gbn9Zm/eo9OF61FYZXnM84rqdv49ParB/n+rGHmButs/3zOL4UuC7yqYLpJtLZiIaU7hTODGs0v7Lnvb3rimmN9aPebI0RTjKd+Hf/QHTS5/v7FYibzbEY0Zcf73NZ2Tu+x+PO1pwJj9H3ow7YOpbHVf5nWvQYo3FZ7R7V2EggNwqb8hDjvuqPah3wvCIepv/efmvkzvypfTHfRtqfqYmjecRcsPqjas8deVK5YDhZ7WY6XO0NVkcjbfkztpOxd0al/t+pr1Heq2fV3X5VvL/4w7tAdsasiirO7nB4rN4jiPdOzrN57H7QJ9daEeqO0NvfnR8+V8Yfq8Vej9/0jc9Vlb9P76UVvzAOq3q1faBvohjRPtN8ZV/qft8Fjh3WzM5LxuXIHdzGz/gtumcoP+KdKsJk7ZXnl+H/pH6Zb79ZV9h//uwbEtPQaG2p+he/AalvSIqH2dqSeVtpysfe3j2NXGPORzyW1RasMd09LXdKx6fbA+Yc+VDvqnIe1RD1v9j2Mqv7URwV/9jv03E5i0nhUF5T9Z1x1sXYyMuIqZMxiGVvHIeqydWzmYWq+1FNyXhU3lgV2dkZ8ZjlPcvV6sDcR3n3e3kA6oZHvQ==
+  </data>
+ </layer>
+ <layer name="silhouette" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzVWMtOHEEM7L8EwkNzWfZGbiyXaB+wIhAiEmD/N2MxJWqLck8PJIdYag1Mb7fLdtnunoNSykHDuOvHSTJ337iHG0f9+NKPY3qqnqOKbsx/L/tySX/fNqy/L15fJrNhfk7vTo2eTtZt+3EzzK37sZJ53QP7sw2/hneLfjxXMMb870RH+PqQ3j0SLjcU61l59cFXszdisevHzwq+He3vcGa/vRvww4YZzV3JuoXBDln240eiL+L0VMb94PCpT0I4frzH7WBHzF0M7xCLLsH2zeDSobzQHICftsaeRfG+hIStc/OeuV3L9cCR+Z35z3nIvuG4OP5HXJV3LxVcmsctcpb8zTzIeP1Q3nPkYQRfLY+mSFYL1Y+utszMOowsnh8VcDCz3/kwJPij/WhqbFtE4+ywoPZsylvNDtFYu7WfEc0RjIvKb5Sn6v+12PBi3o0Jas3SYFMM4ClqhvYrly+x/mbA9UTvFGPguC6vcWmpV8dl/1xS67ksYzXacTurU1w7u4pO7r9T8bGODJ/yPtZwXP6mcL9XHcxPzh/mRdegAzwOPoA7K5q/NGu0z7naHPwFZxRHxCjzWeBhfmV9YU0YnmX9v+gdfD7UWuHOvVlvcPYwPujRmCCHOV4berp6584v8H30suCVyxWtfVxDsnjARs2PscEY3VnMiWJQOxQ/6+G185E1jmvKN8RLfc1nBT0buPo/N2uZF5FP0ddRb2qcy+qVO+NA77mxs5ZDsZbrDvqp6w3sW72rsi9Ux050uBi52oi7Syd7uVgwhk7eay3RteASbGZfo5dofuHuomey7E4Rskjm2HeKnfEDN+5aWe09L293DmdrdsaNfdVO6K71x12C24nrQ5+RZaKb9QQ+5jPOTSuzzuXXRzCjtzK24Axyk3kQNiA/mKuOK8GhqOPoGfwNJrNJJXBovrFezm1+H8J1d+z7QPZNDD7gu7vawxzlbxjaY7lfQmrfUVrk1GDO6tS27NcWjo32cuYVYxy7f7T0U9wX4R8+53Ac2BbOaRfPrJdm+yGuOHtu6Ql/tNQwd650PsQeHKvWM/ys7N/Jpqx1kp2FpsrUWoNzJJ8h8dzQ/xrDsbsf3w2uyvj3XpXHUr8jtwy2C7yq3XPdcH5xufm/jz8rpYXq
+  </data>
+ </layer>
+ <layer name="cliff" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmEdvFEEQhWvIF6LhYJMP5i+DDYI1WWCCAdkGTBDpD5CjyclcDQg48EozJZdrq6enZ2YBiX3SJ617enueq7urupeIaCAj2gg2gR/4+yf4BUbAKNhLadoN9pjv73P6fQPfA2OMg1PF5+3wtQPsBCvASrAKHMGzo+BYor9D4DAt/v5xp99SvGNZ5o8xDTqmbT36bsgW4jmBtnOJ3kRnKf++6ILTZy3esS7gjzXutG3LFsdTy863xGd/Bb/XnbbNJd5Y08XYB6g7lp7sfEt8TxRU8ZkqHvck+bG0Ej/nTftkgYwV0zz4WtEfj2tjeKfid72xpiiflzFwMNGftOtnN6g7hlM1/YkkN5wOPM+w7pY4a0/a9TPer5MN/Vhx/C5SPh+hOK5x/K3O8nb9jPcrx/Bmi/5ugdtUHsehrHuOOa8NFXQo/996oeVFnpc4Xgr08+aY89quHvuTPC9xLNtvI4F2Xd/a1tasPM9rhWqoxL5t3QcPwEPwCDwGT8BT8Aw8By/AcDGPoZzKqpKTrebJz1/i6RV4Dd6At+AdeA8+gI/gU8K7OuAuuGfaYzVP8pSNk/bUhvj9s+ClaY/VPMlTEqe2/Fjx++fAF9Ou65SnwSJH9coXa6x4f9kZ1hOv6+HIuciqyn7R0rml7AybotiZpGy/fDZ9dW6JnWFZsxW8hGp+HQ2q+sFn2C2Rce0aFS+ytzgusmfsvaiOeP2k1A+7RsWL9i17xt6L6ipUP7y7oV2j4kVL6oHci6QmyH4gah5Xlnc3tGtUvKRKxmyiM9QdA+9uWEcT8S5RXQYz4Aq4Cq6Rfzfsa0H2fPCvqqwGeHv2T2hOfS6rAX/Ln869knc91c0pTaVzb9sxkjMk16lOzTFs7tVjNlXKbzIheecDjmPsjJbisenvJVa81vQZra++/lf9BhKI4VU=
+  </data>
+ </layer>
+ <layer name="cliff2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlrkLwjAYR1N0r7t/uQpaBRW8QIVaHb1G71133evoT2wgrT2kTdKAefAoQoZHY76GkA892IcDOIQjohY2nEEHzuEi35wvlnAF13ADtzFrK7AKaxK6KDu4hwd4hKeYtW3YgV0JXWkYwwmcer/Z/64o6rABrYR1dG9ZbO/pcG56Q5t+fQey95Y2sec3juDeioY20fPLCws2YcszLVd449AThJ3zWWb9HT64FPlh53yWWe/CJ5ciP+ycj5v1SRQMQooGnyYRmGgrKdzHcoaXvCNCoF3Bs5zHPSCMqBmjSl8Uqt9TKLK+ZZr/Q9T9gBei7ge8cPMOSKCg+LfXVLyvrHifRqPRaDQa+bwAEi9Lkw==
+  </data>
+ </layer>
+ <layer name="rocks" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzdmEtywjAMhk3Npkk2TFeUXbuinAB6/3vVmkaDamw9XBkSvhkNIbGdP7KsKA7BxiFZTLZJNpHjnGH+xevw/5jsK2s3kuN8nMmojaOmcSTHqK+ks8TRR9oNtXuDPw6GcbYOWjhGuYlIaV5KnMgxzg/GFYd03YLG9x+h/ky18/g8r0od52SXrC+M/anoC3Mm+UQT/zWtu/Abp0O4Pq92PeX3jw19JYbZPHMLxWtc7bqwMgXfZ/een7XQK348gbnBdSrllh0zxhLmd89co+9xeg7shemHaywW+vckzr9cvkZtnu+vNSPF4X9iFMe21FYWvHI5HQc1vzHtMc5OTBtv8nnifOqdQyGHtdYcLUS5yR+4HOYN5ntt/lhKnrdANUv6JT/0/laq8W5oa4m3Us7pVVPS8TVxVNszsOrznrMpXPc18rphjeujB8/kh8ts33e+b0tNBzrP3kIeCFe3aIB6XZMvWutn71oQv8XAoO631g6INsfS+y59vWr3vR4B9R/d07L06w2+B6G+5L5jcS3Qfe7eOmE/FGM99yVS8uk9tAE/qNMRfA==
+  </data>
+ </layer>
+ <layer name="rocks2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJACAQA0DBypHU/ffSRvgB5LW4g5AyZUoBAAD4V98ZoWfidk3cAoAj8+u4q4UA7y2vpQF7
+  </data>
+ </layer>
+ <layer name="stalactites" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmMEKgCAMhq1u1cWjj2K9/3u1oIGIVKLTCf8HP3aobUzZcsa0YyYtDf3lspI20tTYrxW07UkH6Syw4Z71KA/nFS9svxbSeWgBnwsAgByj1DQAQH801wsfrJJx+kia/lP23gEo5L6/aNqjGPf9CgBAMbVmJHFvKe0z/E2PGiM5N6phOycn4R78mVWxbZsQo6EnuYSADsLzxs815qV//GknlZsR4s7lAiaHDQw=
+  </data>
+ </layer>
+ <layer name="rails" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmNsOwyAIhn01l+xi6/u/T9csJMSBCjKhCV/iRWstv3LQWEqSJEmCqZ/2btrDVdEX0HUQfa/yq3m37qdiDOjeoRPrwz6esa2ZmxTsQ+xjzjaeAxUTuwB9bex5asLs8N0Kl98l8T+qT1T/ao5J1pD6lottrQ3J2HY9NHFZleOAXg5b5MlqjHP7h1UOR83B3p7qRZS6zhHVl8Cd9UXQ/u9apWGUE57aLkZ+mznDrbTR3k7Zn6kzVvEosS+pyVb6qP3PIs5257PUnvTs6UGEmtgj2hpW4p1Eo/b+Y7aWcfmDNcK/2mfp/Yf1WRbsHMxzch9OzFQ4DA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="40" height="40">
+  <object name="Powerup" x="515" y="164" width="23" height="19">
+   <properties>
+    <property name="PowerupType" value="1"/>
+   </properties>
+  </object>
+  <object name="Powerup" x="390" y="359" width="20" height="20">
+   <properties>
+    <property name="PowerupType" value="2"/>
+   </properties>
+  </object>
+  <object name="Powerup" x="818" y="72" width="19" height="18">
+   <properties>
+    <property name="PowerupType" value="1"/>
+   </properties>
+  </object>
+  <object name="Powerup" x="711" y="747" width="20" height="16">
+   <properties>
+    <property name="PowerupType" value="2"/>
+   </properties>
+  </object>
+  <object name="Powerup" x="775" y="1066" width="19" height="17">
+   <properties>
+    <property name="PowerupType" value="2"/>
+   </properties>
+  </object>
+  <object name="Powerup" x="198" y="872" width="20" height="19">
+   <properties>
+    <property name="PowerupType" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn1" x="936" y="71" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn2" x="102" y="298" width="38" height="36">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn3" x="582" y="425" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn4" x="838" y="649" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn5" x="1190" y="46" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn6" x="1127" y="1004" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn7" x="775" y="842" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn8" x="1030" y="1097" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn9" x="357" y="777" width="19" height="18">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="SpawnPoint" x="73" y="105" width="15" height="19"/>
+ </objectgroup>
+ <layer name="Foreground" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1IENABAMBECD2X8uI0hQJb0bgCbffmvM9OwBAIJF9NzsTd0K97k7dtmh96xkIkeo4+S9646aMnLf/dOu/kt2RBhtOwNJ
+  </data>
+ </layer>
+ <layer name="Meta" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmFFuxDAIRLniRkruf5S2Ui0hNMwMjr+qIvGxiw0vgHF2PxHx+QOq5I3fS/hTcRSLa0efmbDcuOyMVeXetTs13O0FleedmM7ayRqn1g7XNL6zjtl3uHZrzeyn+LLc3/oUvQU3i3GKb3EhFsSM1na+L7DG5VvylD1odlY7eqY3s8fly/lyapv3Oj3t2rK9Y6p5VeunfGwmsf2ZY3FOe2+HYTprVO2m6sjE3/2rk/Us12oWXJs5dPOB+tU5b6xOIWyID8XeOSvLR1ejTlAPIrY72TofKvfV/7RfVc9Uf+i+OMG3Y985p8te7x/mR8WasKlem97fP8LONdqr9nR+0DntGKuoPKi6O366OdL5m9ap+w4J43NsnR8nv4yXre9maZ1VKIcs3iSf1VbPROXLbJ3PLobiUPsidM/VO7Fyo9k7UfUOu+Kv8x7hzZmuH5evAN+z+FlQ/Fzrrtcq3+RMdKreqVCfOTMCnXUkDqMzs9hsQbG69xom6j8xNaumz/oEvqeY1DXdb9FdtryW9cQJRWzsORCLYszSnQXF586xjiMz5hlwBZ9VbuwTNaqzyXl/dHv2Ldu/zvQLCDxKQA==
+  </data>
+ </layer>
+</map>
