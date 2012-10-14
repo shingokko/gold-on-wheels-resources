@@ -30,12 +30,12 @@
   </tile>
   <tile id="4">
    <properties>
-    <property name="Rails" value="Curve"/>
+    <property name="Rail" value="Curved"/>
    </properties>
   </tile>
   <tile id="5">
    <properties>
-    <property name="Rails" value="Straight"/>
+    <property name="Rail" value="Straight"/>
    </properties>
   </tile>
  </tileset>
@@ -75,14 +75,14 @@
    eJzt1bEJACAQA0DBypHU/ffSRvgB5LW4g5AyZUoBAAD4V98ZoWfidk3cAoAj8+u4q4UA7y2vpQF7
   </data>
  </layer>
- <layer name="stalactites" width="40" height="40">
-  <data encoding="base64" compression="zlib">
-   eJzt2FEKgCAMBuBFJ/DRI9QNZve/V/YwMBFi6GzF/8HoJaaYbCbRPGuOZeJ4WluOvXjOEgxzc46U4+jIEYtclpJx/lGs12EG2RcAYOcPtaJlRF8BgDvP9aKcm+XZQWoLasw3XP8vns+S8fkVAHBs1B1J3VuY+vqM9MQ3aozlvdGI3Jo1YdJ9C8kdGiE89KTYCPCh3GtM+j3YM5539dp8Zd5aJxXADns=
-  </data>
- </layer>
  <layer name="rails" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmNsOwyAIhn01l+xi6/u/T9csJMSBCjKhCV/iRWstv3LQWEqSJEmCqZ/2btrDVdEX0HUQfa/yq3m37qdiDOjeoRPrwz6esa2ZmxTsQ+xjzjaeAxUTuwB9bex5asLs8N0Kl98l8T+qT1T/ao5J1pD6lottrQ3J2HY9NHFZleOAXg5b5MlqjHP7h1UOR83B3p7qRZS6zhHVl8Cd9UXQ/u9apWGUE57aLkZ+mznDrbTR3k7Zn6kzVvEosS+pyVb6qP3PIs5257PUnvTs6UGEmtgj2hpW4p1Eo/b+Y7aWcfmDNcK/2mfp/Yf1WRbsHMxzch9OzFQ4DA==
+   eJztmOEKhTAIhXu1G+xHt/d/nwruQELnpkvl5gdSrLUOp+nGliVJEgmfM75nrN5CCMrtGo3UN06dc1fsv7YNtLXCYp5qvLLwuecbVB8Lfa1/uTJ99vtgxkTKE4yZ+mAezsqvmfqwsbTjU+9jXnCBzdWn9M3y9d/1PV1X3lQftGA55V3fIZG8wvDUB/8dtSZ46ivEPdXHGkoftvf1gNIn9UyyfvaurRvRPkLmuo7Up6PO4UjnLDVnIZF8xLRwPnJ1iPN/pI61apF0TdI+70W6T+bOaSLt797CAV0HNas=
+  </data>
+ </layer>
+ <layer name="stalactites" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2FEKgCAMBuBFJ/DRI9QNZve/V/YwMBHCdDbj/2D0EjNUNpNonDXGMnC8WluMPXmO4hRzc4wQ42jI4ZNcmoJy/l6052EE2RcAoOcPtaKkR18BgDvL9SL9Ns2zg9QW1Jg5XP8vls+S/vkVADCs1x1J3luY2vqM9MQvaozmvVGP3DVzwlS3FpLbFUJY6Em+EGBDuteY6vfgm/Fmkc/NX8/hJ1/NDgY=
   </data>
  </layer>
  <objectgroup name="Objects" width="40" height="40">
@@ -162,15 +162,65 @@
    </properties>
   </object>
   <object name="SpawnPoint" x="146" y="210" width="30" height="38"/>
+  <object name="GoldCart" x="897" y="772" width="52" height="53">
+   <properties>
+    <property name="Cart" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="524" y="652" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="1740" y="590" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="1484" y="1230" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="1100" y="1422" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="268" y="1422" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="1230" y="2128" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="206" y="2124" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="1866" y="1802" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
+  <object name="Gold" x="2126" y="76" width="40" height="40">
+   <properties>
+    <property name="Gold" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
- <layer name="Foreground" width="40" height="40">
+ <layer name="Foreground" width="40" height="40" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1IENABAMBECD2X8uI0hQJb0bgCbffmvM9OwBAIJF9NzsTd0K97k7dtmh96xkIkeo4+S9646aMnLf/dOu/kt2RBhtOwNJ
   </data>
  </layer>
  <layer name="Meta" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmFFuxDAIRLniRkruf5S2Ui0hNMwMjr+qIvGxiw0vgHF2PxHx+QOq5I3fS/hTcRSLa0efmbDcuOyMVeXetTs13O0FleedmM7ayRqn1g7XNL6zjtl3uHZrzeyn+LLc3/oUvQU3i3GKb3EhFsSM1na+L7DG5VvylD1odlY7eqY3s8fly/lyapv3Oj3t2rK9Y6p5VeunfGwmsf2ZY3FOe2+HYTprVO2m6sjE3/2rk/Us12oWXJs5dPOB+tU5b6xOIWyID8XeOSvLR1ejTlAPIrY72TofKvfV/7RfVc9Uf+i+OMG3Y985p8te7x/mR8WasKlem97fP8LONdqr9nR+0DntGKuoPKi6O366OdL5m9ap+w4J43NsnR8nv4yXre9maZ1VKIcs3iSf1VbPROXLbJ3PLobiUPsidM/VO7Fyo9k7UfUOu+Kv8x7hzZmuH5evAN+z+FlQ/Fzrrtcq3+RMdKreqVCfOTMCnXUkDqMzs9hsQbG69xom6j8xNaumz/oEvqeY1DXdb9FdtryW9cQJRWzsORCLYszSnQXF586xjiMz5hlwBZ9VbuwTNaqzyXl/dHv2Ldu/zvQLCDxKQA==
+   eJztmFtqAzEMRb3FFDL7X0obqEEI6T5kf5UKTCYjj3z0sDzJa631+gODyW273RzFxlRffUeCfFDZEasaI6ZXcjjNGYvzZM0t75/x/H4qvrC8olwrXNnOkz7V+lb1Ey7Eh+wg/S2+LB0fkpN9o/Dtmtt1l++hsecrvrv9YYsTqyzx2ZPec8rXzXH48hzGuAXlkuX7Hey4fKgnoeejKLFVe8OET61N59luVDmI8Z8wPgOfOqlyofTZCZ/af1CsFD6mq/i6WLA4VOKeo2vVHF1drlXbulHfirC+wnrBLb6JfrJPsl7hY2s5bIgR9Rdk48vkU/xie4rlKAuLA8u7Yqc7qzt7bp66ex/J72iIz1lDrR8U07j2vq7md70UrdNdMzaVT4lrZzPeQ4JsRSZ2zfZ3nDM5P9Wztfq9gPys+LpzK8+9JWo/iXxOrar7CNno7Fbzq73O7CuszA+FreOb5NOJseOr+z9LXkPldtg2U9W3HN+cfGfbyI+KBcUx6lFfQXxOH+veZSJ7FvYe7+hPcuG8J7vxPWX7H974BiSPQuY=
   </data>
  </layer>
 </map>
