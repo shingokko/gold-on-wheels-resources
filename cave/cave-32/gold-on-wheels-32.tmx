@@ -30,12 +30,12 @@
   </tile>
   <tile id="4">
    <properties>
-    <property name="Rails" value="Curve"/>
+    <property name="Rail" value="Curved"/>
    </properties>
   </tile>
   <tile id="5">
    <properties>
-    <property name="Rails" value="Straight"/>
+    <property name="Rail" value="Straight"/>
    </properties>
   </tile>
  </tileset>
@@ -75,14 +75,14 @@
    eJzt1bEJACAQA0DBypHU/ffSRvgB5LW4g5AyZUoBAAD4V98ZoWfidk3cAoAj8+u4q4UA7y2vpQF7
   </data>
  </layer>
+ <layer name="rails" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmGEKwzAIhXO1Ffpj6/3vsw4WJkVNozZ5rH4gK1ubPV7UpCklSRILjz1eeyyzhQish080EPXVOf3E9v0OSR+n5Vl+mrUYkacer0b4fOY/pHtG6NPmcmncsx0HGwxSnXBE6qN9Iqq+IvVxY3nH157n/NCCy9Ur9UV4++/6tN4T0Vvu1B+8cPU0u79TkLziSH0yNLekNWumvlW45vbmM5D0WT3rXTt71tYIfVfmAl1zrHOate4DXV/NEaRzllqzFCQftXMCycdWH2r539PHtFq3vn97fz+L9f27dU6DtL+7C2/qbjWr
+  </data>
+ </layer>
  <layer name="stalactites" width="40" height="40">
   <data encoding="base64" compression="zlib">
    eJztmMEKgCAMhq1u1cWjj2K9/3u1oIGIVKLTCf8HP3aobUzZcsa0YyYtDf3lspI20tTYrxW07UkH6Syw4Z71KA/nFS9svxbSeWgBnwsAgByj1DQAQH801wsfrJJx+kia/lP23gEo5L6/aNqjGPf9CgBAMbVmJHFvKe0z/E2PGiM5N6phOycn4R78mVWxbZsQo6EnuYSADsLzxs815qV//GknlZsR4s7lAiaHDQw=
-  </data>
- </layer>
- <layer name="rails" width="40" height="40">
-  <data encoding="base64" compression="zlib">
-   eJztmNsOwyAIhn01l+xi6/u/T9csJMSBCjKhCV/iRWstv3LQWEqSJEmCqZ/2btrDVdEX0HUQfa/yq3m37qdiDOjeoRPrwz6esa2ZmxTsQ+xjzjaeAxUTuwB9bex5asLs8N0Kl98l8T+qT1T/ao5J1pD6lottrQ3J2HY9NHFZleOAXg5b5MlqjHP7h1UOR83B3p7qRZS6zhHVl8Cd9UXQ/u9apWGUE57aLkZ+mznDrbTR3k7Zn6kzVvEosS+pyVb6qP3PIs5257PUnvTs6UGEmtgj2hpW4p1Eo/b+Y7aWcfmDNcK/2mfp/Yf1WRbsHMxzch9OzFQ4DA==
   </data>
  </layer>
  <objectgroup name="Objects" width="40" height="40">
@@ -162,7 +162,7 @@
    </properties>
   </object>
   <object name="SpawnPoint" x="73" y="105" width="15" height="19"/>
-  <object name="GoldCart" x="421" y="418" width="25" height="27">
+  <object name="GoldCart" x="485" y="388" width="25" height="27">
    <properties>
     <property name="Cart" value="1"/>
    </properties>
@@ -230,7 +230,7 @@
  </layer>
  <layer name="Meta" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztl8GuQjEIRPuLmlz//1N0YRNCZpgB68ZIwuI9KD0FSq+3tdbtB1TJ6bjMx4kxtaO/K6nO4LJXrG6OlN2p4bRmKs+TPR3fjo9Ta4eru7/jV9knXNNaV/ZTfFGulz6SXoK72uMU3+ZCLIgZ+Tr16M6HLY+05g5iM+7I+cnscflivpzaxrWdHDq1Vkw5r8q/y1fNpGp95Nic3d6bMHRnjapdVx3pxLve2vGvcu3MgkkO3XygfnXuW1WnJWyID+09uSs7BqsRE9SDiO0KNhZD5T7H7/ar6hk1C07xTeyTe7rt+f2p4qi9Omyq16bvd4fPORe7a3ktY8ii8qDO5cRhc4TF69aJ/Q9JxefYWBwnvxVv5c9maZ5VKIfVfp18Zlu+E5kvsrGYbA/FodatpXsuv4mZG83ejqpv2My3ljdnWD9mXyXuN0GsdfX2RL7OnWCqvqlQnzkzAt11JA6jM7Oq2YL2Yt81XXG5J2d1zsR4XO4uW/SteuKEIrbqHIhFMUZhd0HxuXOMcUTGPAPU7wdn7xM1YlxubCXf6J+/Yn0C+5JGFg==
+   eJztmFuOwjAMRbNFPtr9LwWQsBQZ+z7cfiGuFME0iXNsJ06Zx1rr8QON6W673RjFxrS/+hsJ+aCyI1Y1RqxfyeE0ZyzOkzVDx6udn0/FF5ZXlGuFK9s506e6v9X+CRfiQ3ZQ/118b0VOI68VH9KVc+PEbNfOjFr4o+wDtz6EnFhl7XOv1J6rfN0Yhy+PYYwhlMuDjDk2Oy4fqklo/i4ltmptmPCpe9OZ27UqB3v8J4znwKdOVS6UOjvlU2tQFyuFj/VVfJ1tFodK7j261jdfflbZVvjc/a2I1R5WC+7im/RPzknuV+5HtpbDhhhRfZnGp+pT/OrOWp7bMWSxODC/FDvdXd3Zc/PUPauE+Jw11P2DYvpWfsetxqNa2q3TfWdseXx3DyButFZ+hoRshU7hOzvf+xj37nTuVsTHFHzo3nLsVap+b7l72t2r6jnqbCC7VV911pF9lZX5obB1fJN8OjF2fHX/z5LXULkdtmCq6pbjm5PvbBupYkFx3PvVd8DM4tSx7l1mZ+98Yj4r/VdywX5/u/PU+f92f3sCShBA+Q==
   </data>
  </layer>
 </map>
